@@ -33,7 +33,7 @@ const Mocha = require("mocha"),
   path = require("path");
 
 const mocha = new Mocha({ timeout: 5000 });
-const testDir = "./tests";
+const testDir = path.resolve("tests");
 
 // Add each .js file to the mocha instance
 fs.readdirSync(testDir)
