@@ -75,6 +75,7 @@ Por último, he creado **12 tests unitarios** y **14 tests funcionales** los cua
     - [8. Valor en coordenada inválido por repetición en fila, columna y área](#8-valor-en-coordenada-inválido-por-repetición-en-fila-columna-y-área)
     - [9. Coordenada ingresada inválida](#9-coordenada-ingresada-inválida)
     - [10. Valor ingresado inválido en coordenada](#10-valor-ingresado-inválido-en-coordenada)
+    - [11. Valor y coordenada válido](#11-valor-y-coordenada-válido)
 
 ## Deploy
 
@@ -552,3 +553,7 @@ test("Check a puzzle placement with invalid placement value: POST request to /ap
 ### 10. Valor ingresado inválido en coordenada
 
 ![Valor ingresado inválido en coordenada](./screenshots/9home_check_placement_invalid_value.webp)
+
+### 11. Valor y coordenada válido
+
+![Valor y coordenada válido](./screenshots/10home_checkplacement_valid_value_coordinate.webp)
